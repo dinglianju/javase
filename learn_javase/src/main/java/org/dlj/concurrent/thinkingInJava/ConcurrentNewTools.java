@@ -650,7 +650,11 @@ class SemaphoreDemo {
 	}
 }
 
-
+/**
+ * Exchanger 实现在两个任务之间交换对象的栅栏
+ * @author zhxg
+ *
+ */
 class ExchangerDemo {
 	interface Generator<T> {
 		public T next();
